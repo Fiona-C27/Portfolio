@@ -5,7 +5,7 @@ import { MdLocationOn } from "react-icons/md";
 import { FaMobileAlt } from "react-icons/fa";
 const Footer = () => {
   return (
-    <div id="contact" className='bg-secondary px-[100px] pt-[100px]'>
+    <div id="contact" className='bg-primary px-[100px] pt-[100px]'>
       <Container>
         <h1 className='text-[#FEFEFE] text-[50px] text-center font-bold pb-5'>Contact <span className='text-lightyellow text-[50px] font-semibold'>Me</span></h1>
         <div className='flex justify-between'>

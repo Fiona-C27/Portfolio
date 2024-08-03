@@ -5,7 +5,7 @@ import WorkItem from './WorkItem';
 
 const MyWorks = () => {
   return (
-    <div id="mywork" className='bg-primary p-[100px] '>
+    <div id="mywork" className='bg-secondary p-[100px] '>
         <Container>
         <h1 className='text-[#FEFEFE] text-[50px] text-center font-bold pb-20'>My <span className='text-lightyellow text-[50px] font-semibold'>Works</span></h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
