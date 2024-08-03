@@ -4,7 +4,7 @@ import Profile from '../../assets/Profile.jpg'
 
 const AboutMe = () => {
   return (
-    <div className='bg-secondary h-[600px] '>
+    <div id='aboutme' className='bg-secondary h-[600px] '>
         <Container>
             <div className='flex justify-between py-[100px]'>
                 <div>

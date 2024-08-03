@@ -8,7 +8,7 @@ import { BiSupport } from "react-icons/bi";
 
 const Service = () => {
   return (
-    <div className='bg-primary pt-[100px] '>
+    <div id='service' className='bg-primary pt-[100px] '>
         <Container>
         <h1 className='text-[#FEFEFE] text-[50px] text-center font-bold'>My <span className='text-lightyellow text-[50px] font-semibold'>Services</span></h1>
           <div className='flex justify-between py-[100px]'>

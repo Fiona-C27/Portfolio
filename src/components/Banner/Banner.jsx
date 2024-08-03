@@ -2,12 +2,12 @@ import React from 'react'
 import Container from '../Layout/Container'
 import banner from '../../assets/banner.jpg'
 import { SiMinutemailer } from "react-icons/si";
-
+import cv from "../../assets/Fiona_Resume.pdf"
 
 
 const Banner = () => {
   return (
-    <div className='bg-primary h-[600px] '>
+    <div id="home" className='bg-primary h-[600px] '>
         <Container>
         <div className='flex justify-between'>
             <div className='mt-[150px]'>
@@ -17,8 +17,10 @@ const Banner = () => {
                 <br/>
                 <br/>
                 <div className='flex gap-10'>
-                <button className='text-[#FEFEFE] text-[20px] font-bold hover:text-primary px-5 py-2 bg-lightyellow rounded-full'>Download CV</button>
-                <button className='text-[#FEFEFE] text-[20px] font-bold hover:text-primary px-5 py-2 bg-lightyellow rounded-full flex gap-4' >Let's Talk <SiMinutemailer className='w-[20px]' /></button>
+                <a href={cv} download="Fiona_Resume.pdf" className='text-[#FEFEFE] text-[20px] font-bold hover:text-primary px-5 py-2 bg-lightyellow rounded-full cursor-pointer'>Download CV</a>
+                <button className='text-[#FEFEFE] text-[20px] font-bold hover:text-primary px-10 py-2 bg-lightyellow rounded-full flex gap-4 items-center'>
+                  <a href="https://wa.me/1701796415" className='flex'>Let's Talk<SiMinutemailer className='ml-[5px] w-[25px] mt-1 cursor-pointer' /></a>
+                </button>
                 </div>
             </div>
             <div className='mt-[100px]'>
